@@ -1,0 +1,24 @@
+name: Compile
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: Check Python syntax
+        run: |
+          python -m compileall -q \
+            run_full_diayn.py \
+            run_scaled_diayn.py \
+            mujoco_diayn_sim.py \
+            visualize_diayn.py \
+            analysis \
+            sac \
+            rllab

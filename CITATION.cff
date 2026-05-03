@@ -1,0 +1,84 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite this public codebase and the original skill-discovery papers."
+title: "Unified Skill Discovery: Robustness Experiments for DIAYN-, DADS-, and LSD-style Objectives"
+version: "0.1.0"
+date-released: "2026-05-03"
+license: "BSD-2-Clause"
+repository-code: "https://github.com/OGibbard/unified-skill-discovery"
+authors:
+  - family-names: "Gibbard"
+    given-names: "Oliver"
+preferred-citation:
+  type: thesis
+  title: "Evaluating the Robustness of Unsupervised Skill Discovery Methods"
+  year: 2026
+  authors:
+    - family-names: "Gibbard"
+      given-names: "Oliver"
+  institution:
+    name: "University of Bath"
+references:
+  - type: article
+    title: "Diversity is All You Need: Learning Skills without a Reward Function"
+    year: 2018
+    authors:
+      - family-names: "Eysenbach"
+        given-names: "Benjamin"
+      - family-names: "Gupta"
+        given-names: "Abhishek"
+      - family-names: "Ibarz"
+        given-names: "Julian"
+      - family-names: "Levine"
+        given-names: "Sergey"
+    identifiers:
+      - type: url
+        value: "https://arxiv.org/abs/1802.06070"
+  - type: article
+    title: "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor"
+    year: 2018
+    authors:
+      - family-names: "Haarnoja"
+        given-names: "Tuomas"
+      - family-names: "Zhou"
+        given-names: "Aurick"
+      - family-names: "Abbeel"
+        given-names: "Pieter"
+      - family-names: "Levine"
+        given-names: "Sergey"
+    identifiers:
+      - type: url
+        value: "https://arxiv.org/abs/1801.01290"
+  - type: article
+    title: "Dynamics-Aware Unsupervised Discovery of Skills"
+    year: 2019
+    authors:
+      - family-names: "Sharma"
+        given-names: "Archit"
+      - family-names: "Gu"
+        given-names: "Shixiang"
+      - family-names: "Levine"
+        given-names: "Sergey"
+      - family-names: "Kumar"
+        given-names: "Vikash"
+      - family-names: "Hausman"
+        given-names: "Karol"
+    identifiers:
+      - type: url
+        value: "https://arxiv.org/abs/1907.01657"
+  - type: conference-paper
+    title: "Lipschitz-constrained Unsupervised Skill Discovery"
+    year: 2022
+    authors:
+      - family-names: "Park"
+        given-names: "Seohong"
+      - family-names: "Choi"
+        given-names: "Jongwook"
+      - family-names: "Kim"
+        given-names: "Jaekyeom"
+      - family-names: "Lee"
+        given-names: "Honglak"
+      - family-names: "Kim"
+        given-names: "Gunhee"
+    identifiers:
+      - type: url
+        value: "https://arxiv.org/abs/2202.00914"

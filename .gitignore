@@ -1,0 +1,67 @@
+# Python caches and build outputs
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Local environments
+.env
+.env.*
+.venv/
+venv/
+env/
+.conda/
+
+# Local rllab machine/cloud configuration
+rllab/config_personal.py
+
+# macOS and editor metadata
+.DS_Store
+._*
+*.swp
+*.swo
+*~
+
+# Private/local document drafts
+*backup*.tex
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Runtime logs and local command traces
+logs/
+outputs/
+*.pid
+*.out
+*.log
+nohup.out
+
+# Large/generated RL artifacts
+data/
+runs/
+wandb/
+gym_log/
+debug.log
+events.out.tfevents*
+*.ckpt
+*.ckpt.*
+*.h5
+*.pkl
+*.mp4
+*.avi
+*.mov
+
+# Local/private MuJoCo files
+mjkey.txt
+mjpro*/

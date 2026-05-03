@@ -1,0 +1,26 @@
+name: diayn
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - path
+  - pip:
+      - cached-property==1.5.2
+      - cloudpickle==3.1.2
+      - flask==3.1.2
+      - gtimer==1.0.0b5
+      - gymnasium==1.2.3
+      - imageio==2.37.2
+      - imageio-ffmpeg==0.6.0
+      - joblib==1.5.3
+      - mako==1.3.10
+      - matplotlib==3.10.8
+      - mujoco==3.5.0
+      - numpy==1.26.4
+      - pandas==2.3.3
+      - plotly==6.5.0
+      - python-dateutil==2.9.0.post0
+      - scipy==1.15.3
+      - seaborn==0.13.2
+      - tensorflow==2.16.2
