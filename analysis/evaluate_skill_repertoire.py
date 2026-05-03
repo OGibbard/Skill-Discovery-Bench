@@ -16,9 +16,9 @@ import numpy as np
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-UNIFIED_ROOT = PROJECT_ROOT / "code" / "unified_skill_discovery"
-if str(UNIFIED_ROOT) not in sys.path:
-    sys.path.insert(0, str(UNIFIED_ROOT))
+BENCH_ROOT = PROJECT_ROOT / "code" / "skill_discovery_bench"
+if str(BENCH_ROOT) not in sys.path:
+    sys.path.insert(0, str(BENCH_ROOT))
 
 import joblib
 import tensorflow.compat.v1 as tf

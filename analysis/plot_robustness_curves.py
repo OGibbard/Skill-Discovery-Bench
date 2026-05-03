@@ -189,7 +189,7 @@ def plot_final_metric(df: pd.DataFrame, metric: str, output_dir: str) -> str:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--root", default="code/unified_skill_discovery/logs/local/half-cheetah")
+    parser.add_argument("--root", default="code/skill_discovery_bench/logs/local/half-cheetah")
     parser.add_argument("--env", default="HalfCheetah-v4")
     parser.add_argument("--metric", default=DEFAULT_METRIC)
     parser.add_argument("--output-dir", default="outputs/figures")

@@ -9,12 +9,12 @@ This folder is intended to be uploaded as the repository root. The existing `.gi
 Recommended fresh-repo flow:
 
 ```bash
-cd /path/to/unified-skill-discovery
+cd /path/to/skill-discovery-bench
 git init
 git add .
 git commit -m "Initial public release"
 git branch -M main
-git remote add origin git@github.com:OGibbard/unified-skill-discovery.git
+git remote add origin git@github.com:OGibbard/skill-discovery-bench.git
 git push -u origin main
 ```
 
@@ -36,6 +36,6 @@ python -m compileall -q \
   rllab
 ```
 
-- Keep the GitHub description explicit: "Unofficial modernized same-stack DIAYN/DADS/LSD robustness code."
+- Keep the GitHub description explicit: "Unofficial same-stack DIAYN/DADS/LSD robustness benchmark."
 - Add GitHub topics such as `reinforcement-learning`, `skill-discovery`, `diayn`, `dads`, `lsd`, `sac`, `mujoco`, and `robustness`.
 - Tag the first public release as `v0.1.0`.

@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite this public codebase and the original skill-discovery papers."
-title: "Unified Skill Discovery: Robustness Experiments for DIAYN-, DADS-, and LSD-style Objectives"
+title: "Skill-Discovery-Bench: Robustness Experiments for DIAYN-, DADS-, and LSD-style Objectives"
 version: "0.1.0"
 date-released: "2026-05-03"
 license: "BSD-2-Clause"
-repository-code: "https://github.com/OGibbard/unified-skill-discovery"
+repository-code: "https://github.com/OGibbard/skill-discovery-bench"
 authors:
   - family-names: "Gibbard"
     given-names: "Oliver"

@@ -1,4 +1,4 @@
-# Unified Skill Discovery
+# Skill-Discovery-Bench
 
 This repository is an unofficial research implementation for comparing unsupervised skill-discovery objectives under degraded observations.
 

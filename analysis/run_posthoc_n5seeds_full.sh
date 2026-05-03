@@ -25,7 +25,7 @@ RUN_LOG="$OUT_BASE/run.log"
 AGG_CSV="$OUT_BASE/noise_delay_extension_n5_postprocess.csv"
 echo "Aggregating n=5 noise-delay extension runs..." | tee -a "$RUN_LOG"
 if ! python3 code/dissertation/aggregate_robustness_results.py \
-    --root code/unified_skill_discovery/logs/local/half-cheetah \
+    --root code/skill_discovery_bench/logs/local/half-cheetah \
     --output "$AGG_CSV" \
     --include-run-substring noise-delay-3 \
     --include-run-substring noise-med-delay-3 2>>"$RUN_LOG"; then
