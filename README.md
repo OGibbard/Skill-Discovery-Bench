@@ -148,6 +148,31 @@ LSD:
       year={2022}
     }
 
+SAC:
+
+    @inproceedings{haarnoja2018soft,
+      title={Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor},
+      author={Haarnoja, Tuomas and Zhou, Aurick and Abbeel, Pieter and Levine, Sergey},
+      booktitle={Proceedings of the 35th International Conference on Machine Learning},
+      volume={80},
+      pages={1861--1870},
+      year={2018},
+      publisher={PMLR}
+    }
+
+rllab:
+
+    @inproceedings{duan2016benchmarking,
+      title={Benchmarking Deep Reinforcement Learning for Continuous Control},
+      author={Duan, Yan and Chen, Xi and Houthooft, Rein and Schulman, John and Abbeel, Pieter},
+      booktitle={Proceedings of the 33rd International Conference on Machine Learning},
+      volume={48},
+      pages={1329--1338},
+      year={2016},
+      publisher={PMLR}
+    }
+
+
 ## Disclaimer
 
 This is an unofficial research codebase. It is provided as-is for inspection, reproduction, and extension. It is not an officially supported product or an official release from the authors of the original DIAYN, DADS, LSD, SAC, or rllab projects.
